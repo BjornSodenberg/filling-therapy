@@ -5,7 +5,7 @@ const config: GatsbyConfig = {
     title: `Filling Therapy`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass"]
+  plugins: ["gatsby-plugin-postcss"]
 };
 
 export default config;
