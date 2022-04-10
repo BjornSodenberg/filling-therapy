@@ -1,11 +1,13 @@
-import type { GatsbyConfig } from "gatsby";
+import type { GatsbyConfig } from 'gatsby';
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    title: `Filling Therapy`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: 'Filling Therapy',
+    siteUrl: 'https://www.yourdomain.tld',
   },
-  plugins: ["gatsby-plugin-postcss"]
+  plugins: [
+    'gatsby-plugin-postcss',
+  ],
 };
 
 export default config;
