@@ -1,11 +1,14 @@
-import * as React from "react"
+import * as React from 'react';
+// @ts-ignore
+import Header from 'components/header';
 
-const IndexPage = () => {
+function IndexPage() {
   return (
-    <main>
-      <p className="text-3xl">Hello World</p>
-    </main>
-  )
+    <>
+      <div className="h-24 bg-[url('images/bg-tile.png')] " />
+      <Header />
+    </>
+  );
 }
 
-export default IndexPage
+export default IndexPage;
